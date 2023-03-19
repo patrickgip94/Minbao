@@ -1,6 +1,8 @@
 import Header from "@/components/Header";
 import "./globals.css";
 
+import Providers from "./Providers";
+
 export const metadata = {
   title: "Minbao",
   description: "Minbao means 🍞 bread in cantonese",
@@ -13,14 +15,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div>
+        <Providers>
           {/* HEADER */}
           <Header />
           {/* NAVBAR */}
 
           {/* SEARCHBOX */}
-          <div>{children}</div>
-        </div>
+          {children}
+        </Providers>
       </body>
     </html>
   );
