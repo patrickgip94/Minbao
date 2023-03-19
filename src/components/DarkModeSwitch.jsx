@@ -9,7 +9,7 @@ function DarkModeSwitch() {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  useEffect(() => setMounted(true), []);
+  useEffect(() => setMounted(true), []); // PREVENTS MISMATCH BETWEEN CLIENT SIDE AND SERVER SIDE
 
   const currentTheme = theme === "system" ? systemTheme : theme;
 

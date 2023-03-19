@@ -22,8 +22,14 @@ function Header() {
         <DarkModeSwitch />
         <Link href="/">
           <h2 className="text-2xl flex items-center">
-            <span className="flex items-center text-[#6d3200] font-bold dark:bg-[#424549] bg-[#f0d1a0] py-1 px-2 rounded-lg">
-              <TbBread className="h-12 w-12 text-[#6d3200]/80 dark:text-[white]" />
+            <span
+              className="flex items-center text-[#6d3200] font-bold 
+              dark:text-[white] py-1 px-2 rounded-full bg-[#d8c4aa]"
+            >
+              <TbBread
+                className="h-9 w-9 mr-1 rounded-lg 
+                text-[#6d3200] dark:text-[white]"
+              />
               Minbao
             </span>
           </h2>
