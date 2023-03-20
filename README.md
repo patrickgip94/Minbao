@@ -35,6 +35,9 @@
 
 Minbao is a website that functions as a clone of [IMDb](https://www.imdb.com/), offering users information and reviews about movies, TV shows, and other forms of entertainment.
 
+## LIVE
+[MINBAO](https://minbao.vercel.app/)
+
 
 ![enter image description here](https://i.imgur.com/vTm1mvn.png)
 ##
